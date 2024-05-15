@@ -42,56 +42,28 @@ public class DGT {
         return dgt;
     }
 
-    public void setDgt(LinkedHashSet<DGT> dgt) {
-        this.dgt = dgt;
-    }
-
     public String getFechaInfraccion() {
         return fechaInfraccion;
-    }
-
-    public void setFechaInfraccion(String fechaInfraccion) {
-        this.fechaInfraccion = fechaInfraccion;
     }
 
     public String getHoraInfraccion() {
         return horaInfraccion;
     }
 
-    public void setHoraInfraccion(String horaInfraccion) {
-        this.horaInfraccion = horaInfraccion;
-    }
-
     public double getVelocidadRegistrada() {
         return velocidadRegistrada;
-    }
-
-    public void setVelocidadRegistrada(double velocidadRegistrada) {
-        this.velocidadRegistrada = velocidadRegistrada;
     }
 
     public double getVelocidadMaxima() {
         return velocidadMaxima;
     }
 
-    public void setVelocidadMaxima(double velocidadMaxima) {
-        this.velocidadMaxima = velocidadMaxima;
-    }
-
     public String getMatricula() {
         return matricula;
     }
 
-    public void setMatricula(String matricula) {
-        this.matricula = matricula;
-    }
-
     public int getSancion() {
         return sancion;
-    }
-
-    public void setSancion(int sancion) {
-        this.sancion = sancion;
     }
 
     public int importarMultas(String archivo) throws FileNotFoundException, IOException {
